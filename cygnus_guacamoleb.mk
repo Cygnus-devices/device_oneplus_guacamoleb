@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from guacamoleb device
 $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 
-# Inherit some common KangOS stuff.
-$(call inherit-product, vendor/kangos/config/common.mk)
+# Inherit some common Cygnus stuff.
+$(call inherit-product, vendor/cygnus/configs/common.mk)
 
 KANGOS_BUILDTYPE := OFFICIAL
 
@@ -20,7 +20,7 @@ KANGOS_BUILDTYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := kangos_guacamoleb
+PRODUCT_NAME := cygnus_guacamoleb
 PRODUCT_DEVICE := guacamoleb
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7

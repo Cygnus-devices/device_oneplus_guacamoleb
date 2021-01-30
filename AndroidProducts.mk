@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_guacamoleb.mk
+    $(LOCAL_DIR)/cygnus_guacamoleb.mk
+
+COMMON_LUNCH_CHOICES := \
+    cygnus_guacamoleb-user \
+    cygnus_guacamoleb-userdebug \
+    cygnus_guacamoleb-eng

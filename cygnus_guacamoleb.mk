@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from guacamoleb device
 $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 
-# Inherit some common PE stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Cygnus stuff.
+$(call inherit-product, vendor/cygnus/configs/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_guacamoleb
+PRODUCT_NAME := cygnus_guacamoleb
 PRODUCT_DEVICE := guacamoleb
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7

@@ -1,0 +1,8 @@
+[
+  {
+    "repository"  : "Cygnus-devices/device_oneplus_sm8150-common",
+    "target_path" : "device/oneplus/sm8150-common",
+    "remote"      : "github",
+    "branch"      : "caf-11-pe"
+  }
+]
